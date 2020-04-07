@@ -6,14 +6,14 @@ import Avatar from '@material-ui/core/Avatar';
 
 const HeaderComponent = () =>{
     return(
-       <AppBar position='relative' classes ={{root:'custom-class'}}>
+       <AppBar className="header" position='relative' classes ={{root:'custom-class'}}>
             <div className="header-content">
                 <div>
                     <Typography variant="h3">ToDo App</Typography>
                     <Typography variant="h5" align="right">by Vlad</Typography>
                 </div>
                 <div>
-                    <Avatar variant="rounded" src="/img/duck.jpg"/>
+                    <Avatar variant="rounded" src="../img/duck.jpg"/>
                 </div>
             </div>
        </AppBar> 

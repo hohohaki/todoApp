@@ -1,4 +1,5 @@
 import React from 'react';
+import AddToDoComponent from './AddToDoComponent';
 
 class ToDoContentComponent extends React.Component{
     constructor(props){
@@ -7,7 +8,7 @@ class ToDoContentComponent extends React.Component{
     render(){
         return(
             <div className="todo-content">
-                test
+                <AddToDoComponent/>
             </div>
         );
     }

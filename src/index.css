@@ -11,18 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.header{
+  margin-bottom: 140px;
+}
 .header-content{
   display:flex;
   justify-content: space-between;
   align-items: center;
   width: 70%;
   margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .todo-content {
   width: 70%;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  
 }
 .custom-class{
-  background: linear-gradient(45deg, rgba(153,207,255,1) 0%, rgba(255,204,247,1) 100%);
+  background: linear-gradient(94deg, rgba(189,197,242,1) 0%, rgba(196,238,242,1) 100%);
 }
+.AddToDoInput{
+  width: 400px;
+  color: #DAF2C2;
+  margin-right: 30px;
+}
+.addToDo-button{
+  height: 55px;
+  width: 120px;
+}
+.backgroundColor{
+  background: #DBF288;
+} 

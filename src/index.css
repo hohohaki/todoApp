@@ -11,9 +11,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.header{
-  margin-bottom: 140px;
-}
 .header-content{
   display:flex;
   justify-content: space-between;
@@ -24,24 +21,40 @@ code {
   padding-bottom: 40px;
 }
 .todo-content {
-  width: 70%;
+  width: 40%;
   margin: auto;
-  display: flex;
-  justify-content: center;
-  
+  padding-top: 140px;
 }
 .custom-class{
   background: linear-gradient(94deg, rgba(189,197,242,1) 0%, rgba(196,238,242,1) 100%);
 }
-.AddToDoInput{
-  width: 400px;
-  color: #DAF2C2;
-  margin-right: 30px;
+
+.avatar{
+  width: 80px !important;
+  height: 80px !important;
 }
-.addToDo-button{
-  height: 55px;
-  width: 120px;
+.addButton{
+  height: 100%;
+  /* background: linear-gradient(36deg, rgba(230,194,255,1) 0%, rgba(255,177,231,1) 100%); */
 }
-.backgroundColor{
-  background: #DBF288;
-} 
+.toDoComponent{
+  background:linear-gradient(36deg, rgba(253,132,132,1) 0%, rgba(195,150,242,1) 0%, rgba(189,242,254,1) 100%);
+  color: white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  width: 87%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: -2px 3px 18px -2px rgba(181,181,181,1);
+}
+.checkboxText{
+  justify-content: flex-start;
+}
+.deleteButton{
+  justify-content: flex-end;
+}
+.hide{
+  visibility:hidden;
+}
